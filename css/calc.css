@@ -19,17 +19,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.calculator {
-    width: 400px;
-    background-image: url("/assets/aluminumBg.jpg");
-    padding: 50px 30px 20px 30px;
-    position: absolute;
-    transform: translate(-30%, -50%);
-    top: 50%;
-    left: 50%;
-    border-radius: 8px;
-    box-shadow: 0 30px 60px rgba(0, 5, 24, 0.8);
-}
+
 .display {
     background-color: black;
     width: 100%;
@@ -73,6 +63,7 @@ button#zero {
     background-size: 150% 150%;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: orange;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,4 +86,32 @@ button#zero {
 }
 .digit-button:hover {
     background-color: #313131a8;
+}
+.calculator {
+    width: 400px;
+    background-image: url("/assets/aluminumBg.jpg");
+    padding: 50px 30px 20px 30px;
+    position: relative;
+    transform: translate(-30%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 0 30px 60px rgba(0, 5, 24, 0.8);
+}
+.icon-container {
+    text-align: left;
+    font-size: 36px;
+}
+#name {
+    text-align: left;
+    font-size: 18px;
+}
+#gear{
+    margin-bottom: 20px;
+}
+.operation-button:hover {
+    transform: scale(1.1);
+}
+.digit-button:hover {
+    transform: scale(1.1);
 }
