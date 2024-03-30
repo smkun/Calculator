@@ -7,15 +7,15 @@
 }
 @font-face {
     font-family: "digital-7";
-    src: url("/assets/digital-7-webfont.woff2") format("woff2"),
-        url("/assets/digital-7-webfont.woff") format("woff"),
-        url("/assets/digital-7.ttf") format("truetype");
+    src: url("assets/digital-7-webfont.woff2") format("woff2"),
+        url("assets/digital-7-webfont.woff") format("woff"),
+        url("assets/digital-7.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 body {
     height: 100vh;
-    background-image: url("/assets/deskBg.jpg");
+    background-image: url("assets/deskBg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -59,7 +59,7 @@ button#zero {
     grid-column: span 2;
 }
 .operation-button {
-    background-image: url("/assets/orngButton.png");
+    background-image: url("assets/orngButton.png");
     background-size: 150% 150%;
     background-repeat: no-repeat;
     background-position: center;
@@ -76,7 +76,7 @@ button#zero {
     background-color: #f6aa06db;
 }
 .digit-button {
-    background-image: url("/assets/blkButton.png");
+    background-image: url("assets/blkButton.png");
     background-size: 170% 170%;
     background-repeat: no-repeat;
     background-position: center;
@@ -89,7 +89,7 @@ button#zero {
 }
 .calculator {
     width: 400px;
-    background-image: url("/assets/aluminumBg.jpg");
+    background-image: url("assets/aluminumBg.jpg");
     padding: 50px 30px 20px 30px;
     position: relative;
     transform: translate(-30%, -50%);
