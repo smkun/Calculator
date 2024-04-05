@@ -30,7 +30,7 @@ equal.addEventListener("click", () => {
     if (Number.isNaN(solution) || !Number.isFinite(solution)) {
       throw new Error("Invalid expression");
     }
-    input.value = Number.isInteger(solution) ? solution : solution.toFixed(5);
+    input.value = Number.isInteger(solution) ? solution : solution.toFixed(5);// Five decimal places
   } catch (error) {
     const originalValue = inputValue; 
     input.value = "Invalid expression"; 
