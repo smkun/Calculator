@@ -26,7 +26,7 @@ equal.addEventListener("click", () => {
   equalPressed = 1;
   let inputValue = input.value;
   try {
-    let solution = eval(inputValue);
+    let solution = math.evaluate(inputValue);
     if (Number.isNaN(solution) || !Number.isFinite(solution)) {
       throw new Error("Invalid expression");
     }
